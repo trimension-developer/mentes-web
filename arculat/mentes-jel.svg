@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+<title>Két kalász – Mentes búzakalász</title>
+<rect width="120" height="120" rx="29" fill="#E6D6F3"/>
+<defs><path id="grain" d="M-1 1C-11 2-24-8-22-19C-11-20-1-11-1 1Z"/><path id="tip" d="M0 1C-11-6-9-21 0-29C9-21 11-6 0 1Z"/></defs>
+<g stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(77 61) rotate(24) scale(.64) translate(0 -60)"><path d="M0 38V106" fill="none" stroke="#FFF9F3" stroke-width="13"/>
+<use href="#tip" y="43" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/>
+<use href="#grain" transform="translate(0 56) scale(0.86)" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/>
+<use href="#grain" transform="translate(0 56) scale(-0.86 0.86)" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/>
+<use href="#grain" transform="translate(0 71) scale(1)" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/>
+<use href="#grain" transform="translate(0 71) scale(-1 1)" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/>
+<use href="#grain" transform="translate(0 86) scale(1.08)" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/>
+<use href="#grain" transform="translate(0 86) scale(-1.08 1.08)" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/><path d="M0 38V108" fill="none" stroke="#9C654F" stroke-width="4.8"/>
+<use href="#tip" y="43" fill="#F6BD95"/>
+<use href="#grain" transform="translate(0 56) scale(0.86)" fill="#F1AE85"/>
+<use href="#grain" transform="translate(0 56) scale(-0.86 0.86)" fill="#DE8B73"/>
+<use href="#grain" transform="translate(0 71) scale(1)" fill="#F1AE85"/>
+<use href="#grain" transform="translate(0 71) scale(-1 1)" fill="#DE8B73"/>
+<use href="#grain" transform="translate(0 86) scale(1.08)" fill="#F1AE85"/>
+<use href="#grain" transform="translate(0 86) scale(-1.08 1.08)" fill="#DE8B73"/></g>
+  <g transform="translate(48 60) rotate(-17) scale(.91) translate(0 -60)"><path d="M0 38V106" fill="none" stroke="#FFF9F3" stroke-width="13"/>
+<use href="#tip" y="43" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/>
+<use href="#grain" transform="translate(0 56) scale(0.86)" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/>
+<use href="#grain" transform="translate(0 56) scale(-0.86 0.86)" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/>
+<use href="#grain" transform="translate(0 71) scale(1)" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/>
+<use href="#grain" transform="translate(0 71) scale(-1 1)" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/>
+<use href="#grain" transform="translate(0 86) scale(1.08)" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/>
+<use href="#grain" transform="translate(0 86) scale(-1.08 1.08)" fill="#FFF9F3" stroke="#FFF9F3" stroke-width="8"/><path d="M0 38V105" fill="none" stroke="#9C654F" stroke-width="4.8"/>
+<use href="#tip" y="43" fill="#FFE1A1"/>
+<use href="#grain" transform="translate(0 56) scale(0.86)" fill="#F6CB88"/>
+<use href="#grain" transform="translate(0 56) scale(-0.86 0.86)" fill="#EFB577"/>
+<use href="#grain" transform="translate(0 71) scale(1)" fill="#FFD696"/>
+<use href="#grain" transform="translate(0 71) scale(-1 1)" fill="#EFB674"/>
+<use href="#grain" transform="translate(0 86) scale(1.08)" fill="#F6C785"/>
+<use href="#grain" transform="translate(0 86) scale(-1.08 1.08)" fill="#E8A66F"/></g>
+</g>
+</svg>

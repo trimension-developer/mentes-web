@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Keresés a saját érzékenységi szűrőiddel, átlátható termékadatok és bevásárlólista. Próbáld ki a Mentes demóját.">
+  <meta name="theme-color" content="#fffbf8">
+  <meta name="robots" content="noindex">
+  <title>Mentes · Bevásárlás a saját szűrőiddel</title>
+  <link rel="icon" href="arculat/mentes-jel.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="arculat/v2.css">
+  <link rel="stylesheet" href="web.css">
+  <script src="web.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#tartalom">Ugrás a tartalomra</a>
+  <header class="header shell">
+    <a class="brand" href="./index.html"><img src="arculat/mentes-jel.svg" alt="" width="38" height="38"><img class="wordmark" src="arculat/mentes-szomarka.svg" alt="Mentes" width="279" height="62"></a>
+    <nav aria-label="Fő navigáció">
+      <a href="#hogyan">Hogyan működik?</a>
+      <a href="#csomagok">Csomagok</a>
+      <a href="#kerdesek">Kérdések</a>
+    </nav>
+    <a class="button small outline" href="#csomagok">Csomagok</a>
+  </header>
+  <main id="tartalom">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Termékelőnézet</p>
+        <h1 id="hero-title">Bevásárlás a<br>saját <em>szűrőiddel.</em></h1>
+        <p class="lead">Állítsd be, mit kerülsz, nézd meg a termékadat forrását, és tedd a kiválasztott termékeket a bevásárlólistádra.</p>
+        <div class="actions">
+          <a class="button solid" href="#csomagok">Csomagok megtekintése</a>
+          <a class="quiet" href="#hogyan">Így működik <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="hero-note">A webes előnézet a tervezett funkciókat és csomagokat mutatja be.</p>
+      </div>
+      <div class="hero-art">
+        <img class="basket" src="arculat/kosar.svg" alt="" width="600" height="570">
+        <div class="sample">
+          <span class="sample-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" width="21" height="21"><path d="M4 7h16M4 12h16M4 17h16"/><path d="M9 5v4m6 1v4m-5 1v4" stroke-width="3"/></svg></span>
+          <div><span class="sample-label">Példa a szűrésre</span><strong>Glutén és tej szerint</strong></div>
+        </div>
+        <img class="hero-mark" src="arculat/mentes-jel.svg" alt="" width="90" height="90">
+      </div>
+    </section>
+
+    <section id="hogyan" class="section steps shell" aria-labelledby="steps-title">
+      <div class="section-intro">
+        <p class="eyebrow">A kereséstől a listáig</p>
+        <h2 id="steps-title">Három lépés a kosárig</h2>
+      </div>
+      <ol class="steps-grid">
+        <li><span class="step-number" aria-hidden="true">01</span><h3>Állítsd be a szűrőidet</h3><p>Válaszd ki az áruházat és azt, hogy milyen összetevőket kerülsz.</p></li>
+        <li><span class="step-number" aria-hidden="true">02</span><h3>Nézd meg a forrást</h3><p>A termékadatlapon látszik az összetevőlista és az ellenőrzés alapjául szolgáló forrás.</p></li>
+        <li><span class="step-number" aria-hidden="true">03</span><h3>Vidd magaddal a listát</h3><p>Add hozzá a kiválasztott termékeket, és pipáld ki őket vásárlás közben.</p></li>
+      </ol>
+    </section>
+
+    <section class="trust shell" aria-labelledby="trust-title">
+      <div class="trust-copy">
+        <p class="eyebrow">A termékadatlap</p>
+        <h2 id="trust-title">Lásd, miből tudjuk.</h2>
+        <p>A termékadatlapon láthatod a besorolás okát, az összetevőket, a forrást és az ellenőrzés dátumát. A boltban mindig nézd meg az aktuális csomagolást.</p>
+      </div>
+      <ul class="statuses" aria-label="Példák a besorolásokra">
+        <li><span class="status good"><span aria-hidden="true">✓</span> Egyezik a szűrőkkel</span><span>Az ellenőrzött adat minden aktív érzékenységi feltételhez elég.</span></li>
+        <li><span class="status uncertain"><span aria-hidden="true">?</span> Ellenőrzés szükséges</span><span>Az adat hiányos, elavult vagy nem ad egyértelmű választ.</span></li>
+        <li><span class="status blocked"><span aria-hidden="true">×</span> Nem egyezik a szűrőkkel</span><span>Legalább egy kiválasztott érzékenységi feltétel nem teljesül.</span></li>
+      </ul>
+    </section>
+
+    <section id="csomagok" class="section plans shell" aria-labelledby="plans-title">
+      <div class="section-intro">
+        <p class="eyebrow">Tervezett csomagok</p>
+        <h2 id="plans-title">Kezdd az ingyenes csomaggal</h2>
+        <p>A keresés, az érzékenységi szűrés és a termékadatok mindhárom tervezett csomag részei. Az árak tesztelendő javaslatok.</p>
+      </div>
+      <div class="period" role="group" aria-label="Számlázási időszak">
+        <button type="button" data-period="monthly" aria-pressed="false">Havi</button>
+        <button type="button" data-period="yearly" aria-pressed="true">Éves</button>
+      </div>
+      <p class="period-note" id="period-note" role="status">A feltüntetett éves ár egy év teljes díja.</p>
+      <div class="plan-grid">
+        <article class="plan">
+          <h3>Ingyenes</h3><p>Első keresésekhez és a napi bevásárláshoz.</p>
+          <div class="price"><strong>0 Ft</strong></div>
+          <ul><li>Keresés, szűrés és ingyenes fiók</li><li>Legfeljebb 10 kedvenc</li><li>1 bevásárlólista</li><li>Válogatott mintatartalmak</li></ul>
+        </article>
+        <article class="plan plus">
+          <h3>Plusz</h3><p>Több listához és közös bevásárláshoz.</p>
+          <div class="price" data-monthly="490 Ft" data-yearly="3 990 Ft"><strong>3 990 Ft</strong><span> / év</span></div>
+          <ul><li>Az ingyenes csomag funkciói</li><li>Korlátlan kedvenc</li><li>Korlátlan bevásárlólista</li><li>Listamegosztás</li></ul>
+        </article>
+        <article class="plan pro">
+          <h3>Pro</h3><p>Listák mellé receptek és olvasnivalók.</p>
+          <div class="price" data-monthly="990 Ft" data-yearly="7 900 Ft"><strong>7 900 Ft</strong><span> / év</span></div>
+          <ul><li>A Plusz csomag funkciói</li><li>Teljes recepttár</li><li>Cikkek és egyéb tartalmak</li><li>Tápértékszűrők · fehérje és Nutri-Score</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="kerdesek" class="section faq shell" aria-labelledby="faq-title">
+      <div><p class="eyebrow">Az indulásról</p><h2 id="faq-title">Gyakori kérdések</h2></div>
+      <div>
+        <details><summary>Kell fiók a kereséshez?</summary><p>A demó fiók nélkül működik. Az éles verzióban is vendégként kezdhetsz keresni. Fiókkal a mentéseidet az eszközeid között is elérheted.</p></details>
+        <details><summary>Melyik áruházban lehet majd keresni?</summary><p>Az első áruházláncot az ellenőrizhető termékadatok alapján választjuk ki. A demó fiktív áruházakat és termékeket tartalmaz.</p></details>
+        <details><summary>Mikor lehet előfizetni?</summary><p>A csomagok és az árak előnézetben láthatók. Az előfizetés a fizetős induláskor nyílik meg, a csomagok és az árak véglegesítése után.</p></details>
+        <details><summary>Mit lehet kipróbálni a demóban?</summary><p>A keresést, az érzékenységi szűrőket, a termékadatlapot, a mentést és a csomagok előnézetét. A demó helyben fut, kitalált termékekkel.</p></details>
+      </div>
+    </section>
+    <div class="shell"><section class="final">
+      <div><h2>Így néz ki a Mentes indulás előtt.</h2><p>Nézd meg, mit tervezünk a kereséshez és a bevásárlólistához.</p></div>
+      <a class="button light" href="#kerdesek">Gyakori kérdések</a>
+    </section></div>
+  </main>
+  <footer class="footer shell">
+    <a class="brand" href="./index.html"><img src="arculat/mentes-jel.svg" alt="" width="32" height="32"><img class="wordmark" src="arculat/mentes-szomarka.svg" alt="Mentes" width="279" height="62"></a>
+    <p>Mentes · webes termékelőnézet</p>
+  </footer>
+</body>
+</html>
